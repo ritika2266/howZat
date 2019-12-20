@@ -1,0 +1,37 @@
+capabilitiesModel:
+  browserName:
+  platformVersion: 4.4.2
+  platform: Android
+  deviceName: Android Device
+  deviceId: P5SW129JT005523
+  appPath:
+  appiumPort: 4723
+  appiumServer: 127.0.0.1
+  appPackage: co.poynt.launcher
+  appActivity: co.poynt.launcher.LauncherActivity
+  appWaitActivity:
+  automationName:
+  xcodeOrgId:
+  xcodeSigningId:
+  xcodeConfigFile:
+  newCommandTimeout: 180
+  locationServicesAuthorized: true
+  autoDismissAlerts: true
+  sdkPath: /Users/akg/Library/Android/sdk/platform-tools/adb
+  testSuiteOne: 60
+  testSuiteTwo: 61
+  testSuiteThree: 62
+  testSuiteFour: 63
+  testSuiteFive: 64
+  testSuiteSix: 65
+  testSuiteSeven: 66
+  testSuiteEight: 67
+  testSuiteNine: 68
+  testSuiteTen: 69
+  currency: $
+
+driverWaitModel:
+  implicitWaitValue: 10
+  fluentWaitValue: 10
+  pollingValue: 5
+

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite HowZat" preserve-order="true"
+	verbose="2">
+	<test name="ui-testing">
+
+		<classes>
+			<class
+				name="trial.howzat.test.LoginFlow">
+			</class>
+
+		</classes>
+	</test>
+</suite>

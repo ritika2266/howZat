@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite Launch Loop]">
+  <parameter name="platform" value="ANDROID"/>
+  <test name="ui-testing">
+    <classes>
+      <class name="trial.howzat.test.LoginFlow"/>
+    </classes>
+  </test> <!-- ui-testing -->
+  <test name="ui-testing(failed)">
+    <classes>
+      <class name="trial.howzat.test.LoginFlow">
+        <methods>
+          <include name="login"/>
+          <include name="register"/>
+          <include name="classLevelSetup"/>
+        </methods>
+      </class> <!-- trial.howzat.test.LoginFlow -->
+    </classes>
+  </test> <!-- ui-testing(failed) -->
+</suite> <!-- Failed suite [Suite Launch Loop] -->
